@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\dashboard\\css\\sb-admin-2.min.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\wwwroot\\dashboard\\img\\login.png",
+      "PackagePath": "staticwebassets\\dashboard\\img\\login.png"
+    },
+    {
       "Id": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\wwwroot\\dashboard\\img\\undraw_posting_photo.svg",
       "PackagePath": "staticwebassets\\dashboard\\img\\undraw_posting_photo.svg"
     },

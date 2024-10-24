@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+YAnkQL7kHo6i09aAw7UtaTaxkX6i/45OAH1qpK+V18=",
+  "Hash": "9kMIybMWmaN5GZvi1hjzymhhhTlxDczBhxr3eBKqdM4=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -1478,6 +1478,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dashboard\\css\\sb-admin-2.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\wwwroot\\dashboard\\img\\login.png",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "dashboard/img/login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dashboard\\img\\login.png"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\wwwroot\\dashboard\\img\\undraw_posting_photo.svg",
