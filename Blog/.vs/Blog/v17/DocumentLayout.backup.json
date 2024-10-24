@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|c:\\users\\user\\desktop\\projects\\blog-mvc\\blog\\blog\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|c:\\users\\user\\desktop\\projects\\blog-mvc\\blog\\blog\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|c:\\users\\user\\desktop\\projects\\blog-mvc\\blog\\blog\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|c:\\users\\user\\desktop\\projects\\blog-mvc\\blog\\blog\\utilities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\utilities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|c:\\users\\user\\desktop\\projects\\blog-mvc\\blog\\blog\\areas\\admin\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|c:\\users\\user\\desktop\\projects\\blog-mvc\\blog\\blog\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB03AAEE-C0FA-427B-8258-2C92DA88C51E}|Blog\\Blog.csproj|solutionrelative:blog\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,6 +32,19 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Utilities\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Blog\\Utilities\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Utilities\\DbInitializer.cs",
+              "RelativeToolTip": "Blog\\Utilities\\DbInitializer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:33:45.306Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -50,54 +67,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Utilities\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Blog\\Utilities\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Utilities\\DbInitializer.cs",
-              "RelativeToolTip": "Blog\\Utilities\\DbInitializer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:22:14.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml*",
               "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAANwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T16:17:41.305Z",
+              "WhenOpened": "2024-10-24T19:19:33.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Users\\Login.cshtml",
-              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\Users\\Login.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Users\\Login.cshtml",
-              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\Users\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T16:17:28.487Z",
+              "WhenOpened": "2024-10-24T19:19:41.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T19:18:29.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Blog\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Controllers\\UsersController.cs*",
-              "RelativeToolTip": "Blog\\Areas\\Admin\\Controllers\\UsersController.cs*",
-              "ViewState": "AgIAADEAAAAAAAAAAAAYwEoAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Projects\\blog-mvc\\Blog\\Blog\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Blog\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T16:07:02.515Z",
+              "WhenOpened": "2024-10-24T19:18:25.735Z",
               "EditorCaption": ""
             }
           ]

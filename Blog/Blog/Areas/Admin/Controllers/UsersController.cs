@@ -1,6 +1,8 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
 using Blog.Models;
+using Blog.Utilities;
 using Blog.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -22,12 +24,23 @@ namespace Blog.Areas.Admin.Controllers
             _signInManager = signInManager;
             _notification = notification;
         }
-        public IActionResult Index()
-        {
-           
-                return View();
 
-            
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+
+            var users = await _userManager.Users.ToListAsync();
+            var vm =  users.Select(u => new UserVM
+            {
+                Id= u.Id,
+                FirstName= u.FirstName,
+                LastName= u.LastName,
+                UserName= u.UserName
+            }).ToList();
+
+            return View(vm);
+
         }
 
         [HttpGet("Login")]
@@ -78,7 +91,7 @@ namespace Blog.Areas.Admin.Controllers
         {
             await _signInManager.SignOutAsync();
             _notification.Success("Logout succesfull");
-            return RedirectToAction("Index", "Home", new { area=""});
+            return RedirectToAction("Index", "Home", new { area = "" });
         }
 
 

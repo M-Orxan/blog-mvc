@@ -1,3 +1,4 @@
+using AspNetCore;
 using AspNetCoreHero.ToastNotification;
 using AspNetCoreHero.ToastNotification.Extensions;
 using Blog.Data;
@@ -22,6 +23,16 @@ builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddNotyf(config => { config.DurationInSeconds = 10; config.IsDismissable = true; config.Position = NotyfPosition.BottomRight; });
 
 
+//LoginPath: Bu özellik, kimlik do?rulama gerektiren bir sayfaya eri?mek istedi?inde ancak kullan?c? henüz
+//oturum açmam??sa, kullan?c?n?n yönlendirilece?i giri? sayfas?n?n yolunu tan?mlar.
+
+//Örne?in, e?er kullan?c? oturum açmadan bir admin sayfas?na eri?mek isterse, sistem onu /login yoluna
+//yönlendirir. Bu, uygulaman?zda giri? yapmalar? için kullan?c?lara login sayfas?n? gösterir
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/login";
+});
 var app = builder.Build();
 
 DataSeeding();
